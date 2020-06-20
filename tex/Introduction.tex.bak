@@ -1,0 +1,3 @@
+\chapter{Introduction}
+
+In this seminar project we would be studying the competition neural model for perceptual decision making. Perceptual decision making refers to the decision making of an individual with respect to perception. Studying the neuronal basis of perceptual decision making has found the middle temporal visual area (MT) to respond large motion stimuli. The output of MT region further down the neural pathway activates the Lateral Intra-parietal Area (LIP) before a saccadic eye movement takes place. The LIP neuron activates if a saccadic eye movement would take place in its receptive field. Fig 1 shows the neuronal findings for LIP neurons as reported by Roitman et al \cite{roitman2002response}
