@@ -1,0 +1,15 @@
+\section{Cortical Micro Circuit Model}
+This model has been developed based on the following assumptions:-\\
+
+1. Recurrent excitation of the neural network is largely mediated by NMDA receptors.
+
+2. The network is dominated by recurrent inhibition.
+
+3. The neurons receive large amount of stochastic background inputs.
+
+The cortical micro circuit model consists of $N$ neurons with $N_{E}$ pyramidal neurons and $N_{I}$ interneurons. The pyramidal neurons constitute of 80\% of the total neuron population. The $N_{E}$ neuron population is divided into stimuli sensitive population ($fN_{E}$) and non sensitive population ($(1 - 2f)N_{E}$). The participating neurons are connected pyramid-pyramid neuron, pyramid- interneuron, interneuron-interneuron, interneuron-pyramid neurons. Both the neuron population are described by the leaky integrate and fire neuron with the membrane potential $ V(t)$ characterised as :-\\
+
+\indent $C_{m} \frac{dV(t)}{dt} = -g_{L}(V(t) - V_{L}) - I_{syn}(t)$ \\
+
+$C_{m}$ is the membrane capacitance, $g_{L}$ is membrane leak conductance, $V_{L}$ is resting potential, $I_{syn}(t)$ is the total synaptic current.  The $I_{syn} (t)$ has both AMPA and NMDA receptors. These external synaptic inputs send outside world stimuli and background noise to the architecture. 
+
