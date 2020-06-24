@@ -3,3 +3,4 @@
 \contentsline {section}{Cortical Micro Circuit Model}{5}%
 \contentsline {section}{Reduced Model}{7}%
 \contentsline {chapter}{Simulation}{12}%
+\contentsline {section}{Package Requirement and installation}{12}%
