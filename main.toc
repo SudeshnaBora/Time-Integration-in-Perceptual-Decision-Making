@@ -1,3 +1,5 @@
-\contentsline {chapter}{\numberline {1}Background}{2}%
-\contentsline {chapter}{\numberline {2}Model Description}{5}%
-\contentsline {section}{\numberline {2.1}Cortical Micro Circuit Model}{5}%
+\contentsline {chapter}{Background}{2}%
+\contentsline {chapter}{Model Description}{5}%
+\contentsline {section}{Cortical Micro Circuit Model}{5}%
+\contentsline {section}{Reduced Model}{7}%
+\contentsline {chapter}{Simulation}{12}%

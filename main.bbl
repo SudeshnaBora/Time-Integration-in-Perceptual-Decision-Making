@@ -1,5 +1,35 @@
 \begin{thebibliography}{1}
 
+\bibitem{abbott2005drivers}
+LF~Abbott and Frances~S Chance.
+\newblock Drivers and modulators from push-pull and balanced synaptic input.
+\newblock {\em Progress in brain research}, 149:147--155, 2005.
+
+\bibitem{brunel2000dynamics}
+Nicolas Brunel.
+\newblock Dynamics of sparsely connected networks of excitatory and inhibitory
+  spiking neurons.
+\newblock {\em Journal of computational neuroscience}, 8(3):183--208, 2000.
+
+\bibitem{brunel2001effects}
+Nicolas Brunel and Xiao-Jing Wang.
+\newblock Effects of neuromodulation in a cortical network model of object
+  working memory dominated by recurrent inhibition.
+\newblock {\em Journal of computational neuroscience}, 11(1):63--85, 2001.
+
+\bibitem{fourcaud2002dynamics}
+Nicolas Fourcaud and Nicolas Brunel.
+\newblock Dynamics of the firing probability of noisy integrate-and-fire
+  neurons.
+\newblock {\em Neural computation}, 14(9):2057--2110, 2002.
+
+\bibitem{renart2003mean}
+Alfonso Renart, Nicolas Brunel, and Xiao-Jing Wang.
+\newblock Mean-field theory of recurrent cortical networks: working memory
+  circuits with irregularly spiking neurons.
+\newblock {\em Computational neuroscience: A comprehensive approach}, pages
+  432--490, 2003.
+
 \bibitem{roitman2002response}
 Jamie~D Roitman and Michael~N Shadlen.
 \newblock Response of neurons in the lateral intraparietal area during a
