@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{abbott2005drivers}
 LF~Abbott and Frances~S Chance.
@@ -22,6 +22,12 @@ Nicolas Fourcaud and Nicolas Brunel.
 \newblock Dynamics of the firing probability of noisy integrate-and-fire
   neurons.
 \newblock {\em Neural computation}, 14(9):2057--2110, 2002.
+
+\bibitem{hubbard2012differential}
+John~H Hubbard and Beverly~H West.
+\newblock {\em Differential equations: a dynamical systems approach:
+  higher-dimensional systems}, volume~18.
+\newblock Springer Science \& Business Media, 2012.
 
 \bibitem{renart2003mean}
 Alfonso Renart, Nicolas Brunel, and Xiao-Jing Wang.

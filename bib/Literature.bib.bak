@@ -93,3 +93,11 @@
   year={2002},
   publisher={MIT Press}
 }
+
+@book{hubbard2012differential,
+  title={Differential equations: a dynamical systems approach: higher-dimensional systems},
+  author={Hubbard, John H and West, Beverly H},
+  volume={18},
+  year={2012},
+  publisher={Springer Science \& Business Media}
+}

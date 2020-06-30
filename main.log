@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.3)  24 JUN 2020 21:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.3)  1 JUL 2020 00:41
 entering extended mode
 **./main.tex
 (main.tex
@@ -166,7 +166,12 @@ File: l3backend-pdfmode.def 2020-05-05 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count189
 \l__pdf_internal_box=\box92
 )
-(main.aux)
+(main.aux
+
+LaTeX Warning: Label `fig:Phase Plane Analysis of Reduced Model' multiply defin
+ed.
+
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
@@ -255,38 +260,28 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
  (tex/introduction.tex [1
 
-] [2
-
 ]
-<fig/LIP.jpg, id=14, 517.18219pt x 210.7875pt>
+<fig/LIP.jpg, id=11, 517.18219pt x 210.7875pt>
 File: fig/LIP.jpg Graphic file (type jpg)
 <use fig/LIP.jpg>
 Package pdftex.def Info: fig/LIP.jpg  used on input line 7.
 (pdftex.def)             Requested size: 328.82706pt x 134.02547pt.
+ [2
 
-Overfull \hbox (10.89673pt too wide) in paragraph at lines 12--13
-\OT1/cmr/m/n/12 been mod-eled both math-e-mat-i-cally and bio-phys-i-o-log-i-ca
-lly. Shadlen
- []
-
-[3 <./fig/LIP.jpg>]) [4] (tex/model.tex (tex/corticalMicroCircuit.tex
-Overfull \hbox (13.29022pt too wide) in paragraph at lines 4--5
+]) [3 <./fig/LIP.jpg>] [4]
+(tex/model.tex (tex/corticalMicroCircuit.tex
+Overfull \hbox (13.29022pt too wide) in paragraph at lines 4--6
 \OT1/cmr/m/n/12 This model has been de-vel-oped based on the fol-low-ing assump
 tions:-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--5
+Underfull \hbox (badness 10000) in paragraph at lines 4--6
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--5
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 12--13
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
  []
 
@@ -294,7 +289,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 14--15
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
 
@@ -444,34 +439,75 @@ Underfull \hbox (badness 10000) in paragraph at lines 26--28
 
  []
 
-) [13]) (main.bbl [14
+) [13]) (tex/Findings.tex (tex/PhasePlaneAnalysis.tex
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
+
+ []
+
+<fig/PhasePlaneAnalysisNoStimulus.jpg, id=59, 255.20343pt x 131.74219pt>
+File: fig/PhasePlaneAnalysisNoStimulus.jpg Graphic file (type jpg)
+<use fig/PhasePlaneAnalysisNoStimulus.jpg>
+Package pdftex.def Info: fig/PhasePlaneAnalysisNoStimulus.jpg  used on input li
+ne 10.
+(pdftex.def)             Requested size: 255.2028pt x 131.74185pt.
+[14
 
 
 
-]) [15] (main.aux) ) 
+]
+<fig/PhasePlaneAnalysisStimulus.jpg, id=63, 264.23718pt x 255.20343pt>
+File: fig/PhasePlaneAnalysisStimulus.jpg Graphic file (type jpg)
+<use fig/PhasePlaneAnalysisStimulus.jpg>
+Package pdftex.def Info: fig/PhasePlaneAnalysisStimulus.jpg  used on input line
+ 17.
+(pdftex.def)             Requested size: 264.23653pt x 255.2028pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--23
+
+ []
+
+[15 <./fig/PhasePlaneAnalysisNoStimulus.jpg>] [16 <./fig/PhasePlaneAnalysisStim
+ulus.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 24--25
+
+ []
+
+) [17] [18]) (main.bbl [19
+
+
+
+]) [20] (main.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 2238 strings out of 480799
- 32628 string characters out of 2905529
- 279894 words of memory out of 3000000
- 18225 multiletter control sequences out of 15000+200000
+ 2260 strings out of 480799
+ 33448 string characters out of 2905529
+ 280948 words of memory out of 3000000
+ 18239 multiletter control sequences out of 15000+200000
  538489 words of font info for 44 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 30i,6n,33p,1416b,246s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\sudes\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/j
-knappen/ec/dpi600\tcrm1200.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6
-.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/
-Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program F
-iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmti12.pfb>
-Output written on main.pdf (16 pages, 284336 bytes).
+ 30i,6n,33p,1474b,246s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\sudes\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\
+tcrm1200.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/
+Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pf
+b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on main.pdf (21 pages, 361157 bytes).
 PDF statistics:
- 105 PDF objects out of 1000 (max. 8388607)
+ 123 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

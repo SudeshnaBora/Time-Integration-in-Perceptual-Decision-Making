@@ -4,3 +4,5 @@
 \contentsline {section}{Reduced Model}{7}%
 \contentsline {chapter}{Simulation}{12}%
 \contentsline {section}{Package Requirement and installation}{12}%
+\contentsline {chapter}{Findings and Analysis}{14}%
+\contentsline {section}{Phase plane analysis}{14}%

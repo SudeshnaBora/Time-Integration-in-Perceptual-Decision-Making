@@ -5,7 +5,7 @@ The initial model by Wang\cite{wang2002probabilistic} used  $N_{E} = 1600$ and $
 
 1. The first step in this reduction is to reduce the entire population of 2000 neurons to a population consisting of 4 units namely 2 discriminatory excitatory units, 1 non selective unit and 1 inhibitory unit. Wong used mean field approach to achieve this. In order to apply the mean field approach, proper estimation of the firing activity of the population and the synaptic input currents were made. First, the driving force of the synaptic input currents has been considered to be constant (Brunel \cite{brunel2000dynamics}). Second, the contribution to the variance of the membrane potential is driven by external input to the population (the all-in-all connectivity within the neurons averages out the inter neuron contribution) as suggested by Renart et. al \cite{renart2003mean}. The $\sigma$ is fixed at constant. Finally, the firing rate was expressed by the simplified input-and-output function (Abott and Chance \cite{abbott2005drivers}):-\\
 
-\indent $r = \phi(I_{syn}) = \frac{c_{E,I} I_{syn} - I_{E,I}}{1 - exp[ig_{E,I}(c_{E,I}I_{syn} - I_{E,I})]}$\\
+\indent $r = \phi(I_{syn}) = \frac{C_{E,I} I_{syn} - I_{E,I}}{1 - exp[g_{E,I}(c_{E,I}I_{syn} - I_{E,I})]}$\\
 
 Here, $\phi$ is the function of the total synaptic input current $I_{syn}$ of a single cell. E,I represent either the excitatory or inhibitory neurons. $c_{E,I}$ is the gain factor and $g_{E,I}$ is the noise factor that determines the shape of the curvature of $\phi$ (which is linear threshold function for large g). This simplified model was derived from the first passage time formula of a single cell LIF model driven by a AMPA receptor mediated external gaussian noise. \\
 
@@ -21,7 +21,7 @@ Using this simplications and estimations, the entire neural population was able 
 
 \indent $\frac{dS_{GABA}}{dt} = - \frac{S_{GABA}}{\tau_{GABA}} + r_{I}$ \\
 
-Here, $i = 1,2,3$ represent the 3 units namely 2 stimuli discriminatory excitatory neuron and 1 unit of non selective excitatory neuron. $I$ is the inhibitory unit, $r_{i}(t)$ and $r_{I}$ are the mean firing rate of the excitatory and inhibitory units. S is the synaptic gating variable and $\tau$ is the decay time constant. \\ 
+Here, $i = 1,2,3$ represent the 3 units namely 2 stimuli discriminatory excitatory neuron and 1 unit of non selective excitatory neuron. $I$ is the inhibitory unit. $r_{i}(t)$ and $r_{I}$ are the mean firing rate of the excitatory and inhibitory units. S is the synaptic gating variable and $\tau$ is the decay time constant. \\ 
 
 2. Using the mean field approach, the model is represented by 11 variables. This model can be further reduced into 8 variables by observing the activity of the non selective excitatory unit. As the firing rate of the non selective unit is more or less constant, it can be replaced by a constant mean rate of 2 Hz. However, this simplification does introduce certain consequences. The first being the difference between the previous model and the current model's firing rate is about 1 Hz. The second consequence is that we would neglect the slightly increased inhibition on the selective excitatory unit by the slightly elevated activity of the non selective unit.
 

@@ -1,0 +1,7 @@
+\chapter*{Findings and Analysis}
+\addcontentsline{toc}{chapter}{Findings and Analysis}
+
+In this chapter we would be discussing the various findings from the simulation and drawing a parallel with the mathematical/experimental observations. The analysis is divided into the following sections :-
+
+\input{tex/PhasePlaneAnalysis}\newpage\cleardoublepage
+

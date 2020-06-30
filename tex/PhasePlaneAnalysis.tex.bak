@@ -1,0 +1,26 @@
+\section*{Phase plane analysis}
+\addcontentsline{toc}{section}{Phase plane analysis}
+
+In order to get the phase plane of the network we determined the fixed points by setting $\frac{dS_{1}}{dt} = 0$ and $\frac{dS_{2}}{dt} = 0$. $Fig 3$ shows the development of the phase plane starting from no external input to stimulus with increasing coherence. \\
+
+In the absence of external stimulus the network has \textbf{five fixed points} out of which 3 are attractors and 2 are repellers. $Fig 2.A$ shows the phase plane when no external stimulus is present.At this stage the network is unbiased and lies on the lower left attractor point (spontaneous stage). The other two attractors corresponds to those points where one of the neuron population shows self sustained behaviour.\\
+
+$Fig 2.B$ shows the phase plane when it has an unbiased external stimulus. Under such condition, the spontaneous stable point and the repellers collapses to form a saddle point. The two diagonals coming out of the saddle point each represent a stable and an unstable manifold. When the system starts in the stable manifold , it converges to the saddle point. This manifold divides the entire plane into two basins of attractors for each categorical choice. Whenever the system is at either of this basin, it gets attracted to that stable fixed point. Whenever, the system is in the unstable manifold, the system is repelled to either of the choices.\\
+\begin{figure}
+  \includegraphics{fig/PhasePlaneAnalysisNoStimulus.jpg}
+  \caption{Phase Plane Analysis of Reduced Model with unbiased stimulus}
+  \label{fig:Phase Plane Analysis of Reduced Model}
+\end{figure}
+The model can also show delayed response version of the task. In this case, during the hold period, the choice is stored in either of the asymmetric stable nodes to be retrieved during decision making. A transient input post that can reset the model.
+
+\begin{figure}
+  \includegraphics{fig/PhasePlaneAnalysisStimulus.jpg}
+  \caption{Phase Plane Analysis of Reduced Model}
+  \label{fig:Phase Plane Analysis of Reduced Model}
+\end{figure}
+
+$Fig 3$ shows the development of the phase plane in the presence of a biased stimuli with increasing $c \prime $ level. As can be seen with the increase in coherence, the  attractor basin of the biased choice becomes larger and finally above a particular critical coherence value , the attractor basin of the other choice annhilates (Fig $ 3.D$). Thus, above a particular $c \prime$ , the model would always select the correct choice. \\
+
+The biased external stimuli which favours one of the choices can also be used to explain another experimental observation. As already mentioned, with an increase in $c \prime$, the probability of choosing the favoured choice increases. This happens as the spontaneous state of the system gets located deeper and deeper into the favoured attractor basin (Fig $3.C$). Thus noise and perturbations cannot dislocate the system into the stable manifold leading to extraction towards the saddle point or making an error choice. This location of spontaneous state deeper into the attractor basin of the favoured choice also explains decrease in decision time as the localtion of spontaneous stage makes it impervious to noise and leads to a quicker merging into attractor node. \\
+
+Further, in case of trial error Fig $3.B$ (red line) in order for the model to make a error choice, it will first travel along the stable manifold and would later diverge away from it into the error attractor. This diverging away takes time due to the ruins of the attractor \cite{hubbard2012differential} leading to a comparatively longer decision time in case of error trails than correct trials.
