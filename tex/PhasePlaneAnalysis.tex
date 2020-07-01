@@ -52,7 +52,31 @@ This linearization of the slow dynamics of the saddle area can successfully expl
 
  Looking in Fig $5. A$ and $5.C$ shows that with a decrease in $\mu_{0}$ the decision time increases , this increase can be paralleled with the increase in $\tau_{unstable}$ (which this model is able to show). However, this linearization tends to over emphasize the role of saddle on the system. First, it disregards the role of the stable manifold in the decision integration time , which cannot be ignored as the system's spontaneous stage lies on or near the stable manifold. Additionally, noise and increase in $c \prime$ pushes the system away from the saddle region, further diminishing their role on the integration time.
 
-The model also tried to explain through phase plane is the role of NMDA synapses on the model. Inorder the elicit the role of NMDA synapses on the excitatory units, we have to reintroduce AMPA synapses into the model. This was achieved by using the 11 variable model definition of the reduced model phase. 
+The model also tried to explain through phase plane is the role of NMDA synapses on the model. Inorder the elicit the role of NMDA synapses on the excitatory units, we have to reintroduce AMPA synapses into the model. This was achieved by using the 11 variable model definition of the reduced model phase. \\
+ 
+The final characteristic to be studied is the influence of Recurrent Strength $w_{+}$ on the model. Decreasing $w_{+}$ increases $\tau_{unstable}$ leading to the increase in decision time (as already discussed with respect to $\mu_{0}$).
+
+\begin{figure}
+  \includegraphics{fig/RecurrentStrengthAnalysis.jpg}
+  \caption{Recurrent Strength Analysis}
+  \label{fig:Recurrent Strength Analysis of Reduced Model}
+\end{figure}
+
+Also we were able to show that we the increase in $w_{+}$ , the reaction time decreases ; however the performance also drastically falls down. Likewise, the $w_{+}$ can be used to explain the diffusion model (system starts at stable manifold and then converges to one of the asymmetric attractor through unstable manifold). atleast qualitatively. However, as discussed previously, quantitatively this model does not adher to the diffusion model.\\
+
+
+Analysing the phase plane of $w_{+}$ and $\mu_{0}$ shows different regions of stability. Lower value of $w_{0}$ (Region I in fig 7.) shows the model incapable of making a decision as it would never reach the Competition phase of the plane. 
+\begin{figure}
+  \includegraphics{fig/PhasePlaneReccurentStrengthAndSignal.jpg}
+  \caption{Recurrent Strength Analysis}
+  \label{fig:Recurrent Strength Analysis of Reduced Model}
+\end{figure}
+ Similarly, for very high values of $w_{0}$, the competition of the model cannot be replicated . This portion shows the annhilation of the losing aymmetric attractor. For a small portion of $w_{0}$, the competition dynamics of the model can be replicated.
+
+
+
+
+
 
 
 
