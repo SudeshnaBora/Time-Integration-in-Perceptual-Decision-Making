@@ -64,13 +64,14 @@ The final characteristic to be studied is the influence of Recurrent Strength $w
 
 Also we were able to show that we the increase in $w_{+}$ , the reaction time decreases ; however the performance also drastically falls down. Likewise, the $w_{+}$ can be used to explain the diffusion model (system starts at stable manifold and then converges to one of the asymmetric attractor through unstable manifold). atleast qualitatively. However, as discussed previously, quantitatively this model does not adher to the diffusion model.\\
 
-Analysing the phase plane of $w_{+}$ and $\mu_{0}$ shows different regions of stability. Lower value of $w_{0}$ (Region I in fig 7.) shows the model incapable of making a decision as it would never reach the Competition phase of the plane. Similarly, for very high values of $w_{0}$, the competition of the model cannot be replicated . This portion shows the annhilation of the losing aymmetric attractor. For a small portion of $w_{0}$, the competition dynamics of the model can be replicated.
 
+Analysing the phase plane of $w_{+}$ and $\mu_{0}$ shows different regions of stability. Lower value of $w_{0}$ (Region I in fig 7.) shows the model incapable of making a decision as it would never reach the Competition phase of the plane. 
 \begin{figure}
   \includegraphics{fig/PhasePlaneReccurentStrengthAndSignal.jpg}
   \caption{Recurrent Strength Analysis}
   \label{fig:Recurrent Strength Analysis of Reduced Model}
 \end{figure}
+ Similarly, for very high values of $w_{0}$, the competition of the model cannot be replicated . This portion shows the annhilation of the losing aymmetric attractor. For a small portion of $w_{0}$, the competition dynamics of the model can be replicated.
 
 
 

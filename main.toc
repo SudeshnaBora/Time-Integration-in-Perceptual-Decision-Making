@@ -6,3 +6,5 @@
 \contentsline {section}{Package Requirement and installation}{12}%
 \contentsline {chapter}{Findings and Analysis}{14}%
 \contentsline {section}{Phase plane analysis}{14}%
+\contentsline {section}{Simulation Findings}{25}%
+\contentsline {section}{Understanding Brian2 Monitors}{25}%

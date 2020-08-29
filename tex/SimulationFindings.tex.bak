@@ -1,0 +1,20 @@
+\section*{Simulation Findings}
+\addcontentsline{toc}{section}{Simulation Findings}
+
+\subsection*{13.1.1.Understanding Brian2 Monitors}
+\addcontentsline{toc}{section}{Understanding Brian2 Monitors}
+
+\textbf{For each of the four subpopulations, find the variable name of the corresponding NeuronGroup.} \\
+
+The four subpopulations are \textbf{inhib\_pop} which is the inhibitory population, \textbf{excit\_pop\_A}, \textbf{excit\_pop\_B} and \textbf{excit\_pop\_Z} which are the excitatory population. \\
+
+\textbf{Each NeuronGroup is monitored with a PopulationRateMonitor, a SpikeMonitor, and a StateMonitor. Find the variable names for those monitors. Have a look at the Brian2 documentation if you are not familiar with the concept of monitors.}\\
+
+For the inhibitory population, the PopulationRateMonitor, SpikeMonitor and StateMonitor is \textbf{rate\_monitor\_inhib,spike\_monitor\_inhib, voltage\_monitor\_inhib}.\\
+For the excitatory populations, the PopulationRateMonitor, SpikeMonitor and StateMonitor are \textbf{rate\_monitor\_A, spike\_monitor\_A, voltage\_monitor\_A} ,  \textbf{rate\_monitor\_B, spike\_monitor\_B, voltage\_monitor\_B} and \textbf{rate\_monitor\_Z, spike\_monitor\_Z, voltage\_monitor\_Z}.\\
+
+\textbf{Which state variable of the neurons is recorded by the StateMonitor?}\\
+
+The voltage "v" is being recorded.
+
+
