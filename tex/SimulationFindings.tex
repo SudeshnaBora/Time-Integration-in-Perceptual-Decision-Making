@@ -2,7 +2,7 @@
 \addcontentsline{toc}{section}{Simulation Findings}
 
 \subsection*{13.1.1.Understanding Brian2 Monitors}
-\addcontentsline{toc}{section}{Understanding Brian2 Monitors}
+\addcontentsline{toc}{subsection}{Understanding Brian2 Monitors}
 
 \textbf{For each of the four subpopulations, find the variable name of the corresponding NeuronGroup.} \\
 
@@ -16,5 +16,35 @@ For the excitatory populations, the PopulationRateMonitor, SpikeMonitor and Stat
 \textbf{Which state variable of the neurons is recorded by the StateMonitor?}\\
 
 The voltage "v" is being recorded.
+
+\subsection*{13.2 Stimulating the decision making circuit}
+\addcontentsline{toc}{subsection}{Stimulating the decision making circuit}
+
+\textbf{express the difference $ \mu_{left} $ - $ \mu_{right} $ in terms of $ \mu_{0}$ and c}\\
+
+The difference is $ \mu_{0}*c$.\\
+
+\noindent \textbf{Find the distribution of the difference $ v_{left}- v_{right} $.}\\
+
+$ v_{left}$ $\approx$ N($ \mu_{left} $, $ \sigma^{2} $)\\
+\indent $ v_{right}$ $\approx$ N($ \mu_{right} $, $ \sigma^{2} $)\\
+
+\indent $v_{left}$ - $v_{right}$ $\approx$ $v_{left}$ + (-1) $ v_{right}$ 
+
+$ \approx $ N($\mu_{left} - \mu_{right}$, 0)\\
+
+\noindent \textbf{Find the default values of of $ \mu_{0}$ and $ \sigma^{2}$}\\
+
+\indent $\mu_{0}$ is 160 Hz and $ \sigma^{2}$ = is 20 Hz.\\
+
+\noindent \textbf{What are the mean firing rates for c =-0.2}
+
+\indent  $ \mu_{left}$ is 64 Hz. $ \mu_right{right}$ is 96 Hz.\\
+
+\noindent \textbf{For c= -0.2, how does the difference $ \ \mu_{left} - \mu_{right} $ compare to the variance of v_{left} .} 
+
+
+
+
 
 
